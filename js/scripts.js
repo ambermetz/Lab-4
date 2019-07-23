@@ -28,7 +28,7 @@ for (let i = 0; i <= arrayLength - 1; i++) {
 while (true) {
   if (randomNumber !== 5) {
     console.log(`${randomNumber} !== 5`);
-    randomNumber = Math.floor(Math.random() * 10);
+    randomNumber = Math.floor(Math.random() * 11);
     counter++;
   } else {
     counter++;
